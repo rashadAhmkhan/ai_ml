@@ -32,4 +32,4 @@ git clone <your-repo-url>
 cd <your-repo-directory>
 
 # Run the Python script
-python3 aiml_python_basics.py
+python3 filename
