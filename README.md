@@ -20,6 +20,11 @@ The code is consolidated into a single Python script covering two main modules:
 * **Slicing & Indexing**: Extracting specific characters and substrings using bracket notation and strides[cite: 2].
 * **Cleaning & Searching**: Sanitizing whitespace with `.strip()` methods and searching text using `.startswith()`, `.endswith()`, and `.find()`[cite: 2].
 
+### 3. Numeric Types & Data Structures (Day 3)
+* **Numeric Types & Math**: Working with integers, floats, and complex numbers (`2 + 4j`). Utilizing arithmetic operators (including floor division `//` and modulo `%`) and the `math` module for precise rounding (`math.floor()`, `math.ceil()`, `math.trunc()`).
+* **Logic & Operators**: Evaluating boolean conditions using comparison operators (`==`, `!=`, `<=`, `>=`) and logical operators (`and`, `or`, `not`).
+* **Lists & Mutations**: Creating lists with mixed data types. Modifying collections dynamically using `.append()`, `.remove()`, and `.pop()`.
+* **Collection Methods**: Measuring the size of iterable objects with the universal `len()` function, and organizing list elements in-place using `.sort()` and `.reverse()`.
 ## 🚀 How to Run
 
 You can easily execute this script directly from your integrated terminal in VS Code using your WSL Ubuntu environment. 
