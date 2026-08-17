@@ -44,26 +44,24 @@ a= int(input("A= "))
 b = int(input("B= "))
 sum = sum(a,b)
 
-print(f"Sum = {sum}"
-)
+print(f"Sum = {sum}")
 
 #unicode error
 
-print("C:\Users\newsp\Downloads") #use \\ to prevent
+#print("C:\Users\newsp\Downloads") #use \\ to prevent
 
 
 #methods replace and split
 
-date = 2026/05/10
-print(date.replace("/","-")
+date = "2026/05/10"
+print(date.replace("/","-"))
 
 csv = "Manish,25,USA"
-print(csv.split(".")) #gives list of strings
+print(csv.split(",")) #gives list of strings
 
 #string navigation
 
-date= "2025/08/10"
-print(date.replace("/","-"))
+
 
 first = "abhishek"; last= "kumar"
 print(f"{first} {last}")
@@ -82,3 +80,43 @@ date= "2025-08-14"
 print(date[0:4],date[5:7],date[-2:])
 
 print(code[0:10:2])
+
+
+
+
+#strip method
+
+name = " JD Vance "
+print(name.strip())
+print(name.lstrip())
+print(name.rstrip())
+
+#strip characters
+print("$JD Vance$".strip("$"))
+
+#case sensitive cmparison
+
+search = "EMAIL"
+data = "email"
+print(search.lower().strip() == data.lower().strip())
+
+
+#find method
+#Search Find & Match
+phone="+48-456-7890"
+print(phone.startswith("+48"))
+
+file="data_backup.csv"
+print(file.endswith(".csv"))
+
+email="manish@gmail.com"
+print(email.find("@"))
+print("@" in email)
+
+#use find() to slice dynamically
+print(phone[phone.find("-")+1:])
+
+#alpha numeric 
+a = "a10"
+print(a.isnumeric())
+print(a.isalpha())
